@@ -19,7 +19,7 @@ body {
   font-family: "Quicksand";
   font-weight: 500;
 }
-
+.box::-webkit-scrollbar, .list::-webkit-scrollbar {   display: none;   scroll-behavior: smooth; }
 .app {
   width: 100%;
   height: 100vh;
